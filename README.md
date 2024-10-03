@@ -1,6 +1,8 @@
 # flutter_receipe_app
 
-A new Flutter project.
+Simple flutter recipe app example
+
+![screenshot](assets/images/screenshot.png)
 
 ## Getting Started
 
