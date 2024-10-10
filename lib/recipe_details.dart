@@ -53,7 +53,7 @@ class _RecipeDetailsState extends State<RecipeDetails> {
 
                     child: Text(
                       widget.name,
-                      textAlign: TextAlign.center,
+
                       style: GoogleFonts.acme(fontSize: 20, color: Colors.white),
                     ),
                   ),
