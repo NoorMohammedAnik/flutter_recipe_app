@@ -17,6 +17,11 @@ class RecipeDetails extends StatefulWidget {
 class _RecipeDetailsState extends State<RecipeDetails> {
   @override
   Widget build(BuildContext context) {
+
+    var screenWidth = MediaQuery.sizeOf(context).width;
+    var fontSize = screenWidth > 600 ? 28.0 : 18.0;
+
+
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
@@ -54,7 +59,7 @@ class _RecipeDetailsState extends State<RecipeDetails> {
                     child: Text(
                       widget.name,
 
-                      style: GoogleFonts.acme(fontSize: 20, color: Colors.white),
+                      style: GoogleFonts.acme(fontSize: fontSize, color: Colors.white),
                     ),
                   ),
                 )
@@ -66,8 +71,8 @@ class _RecipeDetailsState extends State<RecipeDetails> {
                     child: Padding(
                   padding: const EdgeInsets.all(14.0),
                   child: Text(
-                    widget.description,
-                    style: GoogleFonts.acme(fontSize: 16),
+                    widget.description,textAlign: TextAlign.justify,
+                    style: GoogleFonts.acme(fontSize: fontSize,),
                   ),
                 ))
               ],
