@@ -18,6 +18,7 @@ class _RecipeDetailsState extends State<RecipeDetails> {
   @override
   Widget build(BuildContext context) {
 
+    //for responsive text size based on screen width
     var screenWidth = MediaQuery.sizeOf(context).width;
     var fontSize = screenWidth > 600 ? 28.0 : 18.0;
 

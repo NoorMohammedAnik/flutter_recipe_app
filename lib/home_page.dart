@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
         children: [
-          GestureDetector(
+          InkWell(
             onTap: () {
              Fluttertoast.showToast(msg: recipe1Name);
              Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(name: recipe1Name, image: image1, description: description1,)));
