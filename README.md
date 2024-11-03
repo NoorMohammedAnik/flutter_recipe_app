@@ -21,3 +21,6 @@ Simple flutter recipe app example with splash screen, dashboard and details page
 - How to design a details page
 - Learn about Flexible widget
 - Learn about scrollview
+
+## Live demo
+https://noormohammedanik.github.io/flutter_recipe_app/
