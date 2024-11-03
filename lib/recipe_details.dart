@@ -20,7 +20,7 @@ class _RecipeDetailsState extends State<RecipeDetails> {
 
     //for responsive text size based on screen width
     var screenWidth = MediaQuery.sizeOf(context).width;
-    var fontSize = screenWidth > 600 ? 28.0 : 18.0;
+    var fontSize = screenWidth > 600 ? 30.0 : 20.0;
 
 
     return Scaffold(

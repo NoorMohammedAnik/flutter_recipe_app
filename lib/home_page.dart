@@ -35,8 +35,6 @@ class HomePage extends StatelessWidget {
               margin: EdgeInsets.all(20),
               child: Container(
 
-
-
                 decoration: BoxDecoration(
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(10),
@@ -63,7 +61,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: () {
               Fluttertoast.showToast(msg: recipe2Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(name: recipe2Name, image: image2, description: description2,)));
