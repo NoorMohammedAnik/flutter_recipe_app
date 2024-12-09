@@ -57,10 +57,13 @@ class _RecipeDetailsState extends State<RecipeDetails> {
                   child: Center(
 
 
-                    child: Text(
-                      widget.name,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        widget.name,
 
-                      style: GoogleFonts.acme(fontSize: fontSize, color: Colors.white),
+                        style: GoogleFonts.acme(fontSize: fontSize, color: Colors.white),
+                      ),
                     ),
                   ),
                 )
